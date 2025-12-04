@@ -9,7 +9,7 @@ div: num1 / num2
 
 
 def add(a, b):
-    pass
+    return a + b
 
 
 def sub(a, b):
@@ -21,7 +21,11 @@ def mul(a, b):
 
 
 def div(a, b):
-    pass
+    return a / b
+
+
+def exponent(a, b):
+    return a**b
 
 
 def main():
@@ -29,6 +33,7 @@ def main():
     print(sub(10, 5))
     print(mul(10, 5))
     print(div(10, 5))
+    print(exponent(10, 5))
 
 
 if __name__ == "__main__":
