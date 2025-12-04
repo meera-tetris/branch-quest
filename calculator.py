@@ -22,6 +22,9 @@ def div(a, b):
 def exponent(a, b):
   return a ** b
 
+def square(a):
+  return a ** 2
+
 def main():
   print(add(10, 5))
   print(sub(10, 5))
