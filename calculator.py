@@ -8,7 +8,7 @@ div: num1 / num2
 '''
 
 def add(a, b):
-  pass
+  return a+b
 
 def sub(a, b):
   pass
