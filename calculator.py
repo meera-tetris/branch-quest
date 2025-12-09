@@ -14,7 +14,7 @@ def add(a, b):
 
 
 def sub(a, b):
-   return a - b
+   pass
 
 def mul(a, b):
     return a * b
